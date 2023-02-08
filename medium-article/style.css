@@ -1,0 +1,59 @@
+
+.banner {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5f/Kuala_Lumpur_Skyline_at_dusk_%28cropped%29.jpg");
+  background-size: cover;
+  padding: 120px 0px;
+
+  font-weight: normal;
+
+}
+.container {
+
+  margin: 0 auto;
+  text-align: center;
+
+
+}
+
+.banner h1,.banner h2 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.shadow {
+  margin: 0 auto;
+  padding: 10px 30px 50px 50px;
+  text-align: left;
+  border: 20px ;
+  border-radius: 10px;
+  width: 700px;
+  color: #A0A0A0;
+  font-weight: normal;
+
+
+}
+
+p{
+  color:black;
+}
+a{
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+  text-decoration: none;
+
+}
+.shadow h1,.shadow h2, .shadow h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #A0A0A0;
+  font-weight: normal;
+}
+a:hover{
+  background-color: aquamarine;
+  color:rgb(0, 0, 0);
+}
+.pro p{
+  width: 700px;
+}
