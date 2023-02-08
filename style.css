@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+body{
+  color: white;
+  width: 100%;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  padding: 50px 20px;
+  padding-top: 100px;
+  display: flex;
+  background-image: linear-gradient(-20deg, #ff2846 0%, #6944ff 100%);
+
+}
+.card p{
+  text-align: center;
+}
+h1, h2{
+  color:#5b0775;
+  font-family:'Times New Roman', Times, serif ;
+  letter-spacing: -1px;
+  line-height: 44px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 42px;
+  text-align: center;
+  background-color: #189baf;
+  padding: 15px;
+}
+a{
+    color: #ffffff;
+    text-decoration :solid;
+    border-width: 1px;
+    border-color: #5b0775;
+    background: #5b0775;
+    font-size: 20px;
+    margin-right: 15px;
+    text-transform: none;
+    padding-top: 10px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    margin-bottom: 20px;
+    text-decoration:none
+
+}
+a:hover{
+  background: white;
+  color: #0020ee;
+
+}
+
+.container {
+
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+
+}
+.card{
+  background :  ;
+  border: 1px ;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px;
+}
+ li {
+  display: inline-block;
+  padding: 20px 2px;
+  padding-top: 5px;
+}
+.p-plus{
+  padding-bottom: 28px;
+}
+.card img {
+  width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    z-index: 4;
+    box-shadow: 0px 5px 50px 0px rgb(68, 77, 252), 0px 0px 0px 7px rgba(47, 5, 235, 0.5);
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+
+
+  }
+
+}
